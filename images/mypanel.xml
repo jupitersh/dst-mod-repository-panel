@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Atlas>
+	<Texture filename="mypanel.tex" />
+	<Elements>
+		<Element name="background.tex" u1="0.001" u2="0.497046875" v2="0.999" v1="0.34084375" variant="" />
+		<Element name="buttongreen.tex" u1="0.001" u2="0.094703125" v2="0.33884375" v1="0.217796875" variant="" />
+		<Element name="buttonred.tex" u1="0.001" u2="0.094703125" v2="0.215796875" v1="0.09475" variant="" />
+		<Element name="buttonyellow.tex" u1="0.096703125" u2="0.19040625" v2="0.33884375" v1="0.217796875" variant="" />
+		<Element name="popup.tex" u1="0.499046875" u2="0.9911875" v2="0.999" v1="0.717796875" variant="" />
+		<Element name="title1.tex" u1="0.096703125" u2="0.3007578125" v2="0.215796875" v1="0.0713125" variant="" />
+		<Element name="title2.tex" u1="0.499046875" u2="0.704078125" v2="0.715796875" v1="0.56740625" variant="" />
+	</Elements>
+</Atlas>
