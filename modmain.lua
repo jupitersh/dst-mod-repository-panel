@@ -10,16 +10,7 @@ Assets = {
     Asset("IMAGE", "images/quagmire_hud.tex"),
 }
 
---读取文件中的网址
-file,err = io.open(MODROOT.."url.txt", "r")
-if err then 
-    self.popuptext:SetString("未设置网址")
-    self.mypopup:Show()
-    self.inst:DoTaskInTime(5, function() self.mypopup:Hide() end)
-    return 
-end
-local url = file:read()
-file:close()
+local url = 'ali.peppernotes.top:2020'
 
 AddClassPostConstruct("widgets/controls", function(self)
     self.repopanel = self.top_root:AddChild(RepoPanel(url))
